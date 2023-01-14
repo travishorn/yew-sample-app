@@ -1,0 +1,13 @@
+[package]
+name = "yew-sample-app"
+version = "0.1.0"
+authors = ["Travis Horn <travis@travishorn.com>"]
+description = "A sample Yew app that displays a button and a number. When the button is clicked, the number increases by one."
+license = "MIT"
+repository = "https://github.com/travishorn/yew-sample-app"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.20.0", features = ["csr"] }
